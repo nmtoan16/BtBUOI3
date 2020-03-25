@@ -1,0 +1,46 @@
+.hinh1{
+	width: 200px;
+	height: 120px;
+	float: right;
+}
+.khung1{
+	width: 500px;
+	height: 170px;
+}
+article{
+	width: 250px;
+	height: 260px;
+	float: left;
+	margin-right: 10px;
+}
+div{
+	width: 540px;
+	height: 190px;
+}
+img{
+	width: 240px;
+	height: 150px;
+}
+p{
+	font-size: 15px;
+	font-family:tohama;
+}
+a{
+	text-decoration: none;
+	line-height: 1.5;
+	color: grey;
+	font-weight: bold;
+	font-size: 14px;
+	font-family:arial;
+}
+a:hover{
+	color: blue;
+}
+.hinh1:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+img:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
